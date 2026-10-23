@@ -16,7 +16,7 @@ function UserPhotos () {
         {photos.map((photo) => (
           <section key={photo._id}>
           <img
-            src={require(`../../images/${photo.file_name}`)}
+            src={require(`/images/${photo.file_name}`)}
             alt="Ảnh người dùng"
             style={{ maxWidth: "100%", height: "auto" }}
           />
